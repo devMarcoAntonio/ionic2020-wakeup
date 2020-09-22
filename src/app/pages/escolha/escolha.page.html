@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon slot="start" name="trail-sign-outline"></ion-icon>
+          <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>escolha</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button (click)="navegarOrigemDestino('/escolhas','/contato')">
+    navegar para a pagina de contato via programação [origem- destino]
+  </ion-button>
+
+  <ion-button (click)="navegar('/contato')">
+    navegar para pagina de contato via programação
+  </ion-button>
+</ion-content>
